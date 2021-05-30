@@ -1,16 +1,3 @@
-html
-css
-js
-python flask
-sqlite
-flask-sqlalchemy
-bootstrap
-
-
-pip install flask-sqlalchemy
-
-from app import db
-db.create_all()
-
-from app import BlogPost
-BlogPost.query.all()
+Flask==2.0.1
+flask_sqlalchemy==2.5.1
+gunicorn
