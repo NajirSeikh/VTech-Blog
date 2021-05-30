@@ -1,0 +1,16 @@
+html
+css
+js
+python flask
+sqlite
+flask-sqlalchemy
+bootstrap
+
+
+pip install flask-sqlalchemy
+
+from app import db
+db.create_all()
+
+from app import BlogPost
+BlogPost.query.all()
